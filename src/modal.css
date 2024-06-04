@@ -1,0 +1,105 @@
+
+.backdrop{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #00000040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mode{
+    width: 500px;
+    /* height: 250px; */
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0.4rem 1rem rgba(54,54,54,.3);
+    z-index: 1;
+    max-width: 40rem;
+    animation: fadeIn .50s 1 forwards ease-in;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.main{
+    padding: 1rem 2.5rem;
+}
+
+.file{
+    width: 100%;
+    /* height: 70px; */
+    height: auto;
+}
+
+.em_conr{
+    margin-top: 12px;
+}
+
+.email{
+    width: 100%;
+    border: 0;
+    outline: none !important;
+    padding: 10px 7px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.email:focus{
+    border: 1px solid #6610f2;
+}
+
+.btn_cont{
+    margin-top: 1em;
+    width: 100%;
+    width: 430px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+}
+
+.btn__sub_{
+    width: 100%;
+    width: inherit;
+    cursor: pointer;
+    padding: 13px 10px;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    text-transform: uppercase !important;
+    background: #e73424;
+    opacity: 0.9;
+    transition: all .2s ease;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 15.5px;
+}
+
+.btn__sub_:hover{
+    opacity: 1;
+}
+
+.err{
+    color: #e32524;
+    font-size: 16px;
+    /* margin-left: 5px; */
+    margin-top: 8px;
+}
+
+
+@media (max-width:'501px') {
+    .mode{
+        width: 100%;
+    }
+}

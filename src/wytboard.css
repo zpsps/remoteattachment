@@ -1,0 +1,147 @@
+
+
+.wytboard{
+    margin: 0 auto;
+    border: 1px solid rgba(0,0,0,.284);
+    border-radius: 0.25rem;
+    padding-bottom: 2rem;
+    background-color: #fff;
+    width: 68%;
+    width:750px;
+}
+
+.menu{
+    border-bottom: 1px solid #ddd;
+    height: auto;
+    background-color: #e32524;
+    padding: 17px 0 0.7px 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.f_item{
+    justify-content: center;
+    padding: 5px 20px 0;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+#f_itemselected{
+    background-color: #fff;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    color: #e32524;
+    border-bottom: none;
+    margin-bottom: -4px;
+    font-weight: 500;
+}
+
+.img_cont{
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+.majorr{
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+
+
+.pdfboxcon___t{
+    background: #eee;
+    margin: 15px 15px 20px;
+    width: 170px;
+    padding-top: 19px;
+    transition: all .3s linear; 
+}
+
+.pdfboxcon___t:hover{
+    background-color: #dedede;
+    /* opacity: 70%; */
+}
+
+.pppdddff{
+    width: 170px;
+    height: auto;
+    opacity: 1;
+    -webkit-transition: opacity .2s;
+    transition: opacity .5s;
+}
+
+.txt{
+    padding: 3px 10px;
+    line-height: 1.5;
+    text-align: left;
+    color: #fff;
+    /* width: 100%; */
+    width: 149px !important;
+    font-size: 16px;
+    background-color: #e32524;
+}
+
+.viieeew{
+    opacity: 50%;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 !important;
+    padding: 6px;
+    color: #000;
+    border: 1px solid #e32524;
+    margin-bottom: -15.1px !important;
+}
+
+.dnld{
+    display: flex;
+    justify-content: center;
+}
+
+.dnld > button{
+    outline: 0;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: #fff;
+    color: #000;
+    padding: 9px 19px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dnld > button:hover{
+    color: #e32524;
+    border: 1px solid #e32524;
+}
+
+.txt_loading{
+    text-align: center;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #222;
+}
+
+
+@media (max-width:800px) {
+    .wytboard{
+        width: 500px;
+    }
+}
+
+
+@media (max-width:550px) {
+    .wytboard{
+        width: 90%;
+    }
+}
